@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const mongoose  = require("mongoose");
-// var mongoose = require('mongoose');
+// var mongoose = require('mongoose'); fb
 const bodyparser = require("body-parser");
 mongoose.connect('mongodb://localhost/contactDance', { useNewUrlParser: true, useUnifiedTopology: true })
 
